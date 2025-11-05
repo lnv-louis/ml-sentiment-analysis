@@ -23,7 +23,7 @@ How does the performance of a Bidirectional LSTM neural network compare to that 
 ## Implementation
 
 ### Technologies
-- Python 3.12
+- Python 3.10
 - TensorFlow/Keras (Bidirectional LSTM)
 - Scikit-learn (LinearSVC)
 - NLTK (text preprocessing)
