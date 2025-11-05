@@ -72,17 +72,22 @@ How does the performance of a Bidirectional LSTM neural network compare to that 
 ## Usage
 
 1. Clone the repository
-2. Install dependencies:
+2. Create and activate a virtual environment (Python 3.10):
    ```bash
-   pip install numpy pandas seaborn nltk scikit-learn tensorflow matplotlib
+   python3.10 -m venv myenv
+   source myenv/bin/activate  # On macOS/Linux
    ```
-3. Download NLTK data:
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Download NLTK data:
    ```python
    import nltk
    nltk.download('stopwords')
    nltk.download('wordnet')
    ```
-4. Run `model.ipynb` in Jupyter Notebook
+5. Run `model.ipynb` in Jupyter Notebook
 
 ## Author
 
